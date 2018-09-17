@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ZigZag Runner</string>
+    <string name="titlebot">Runner </string>
+    <string name="titletop">ZigZag </string>
+    <string name="playButton">Play</string>
+    <string name="about">Cette application a été réalisé par Nicolas Bourdin dans le cadre d\'un projet de TP du module Android au département informatique de l\'IUT de Laval</string>
+    <string name="rules1">Ce jeu est inspiré du ZigZag.</string>
+    <string name="rules2">Vous devez faire en sorte que la balle roule sur le chemin en forme de ZigZag. Pour ça, tapotez l\'écran afin de changer la direction de la balle.</string>
+    <string name="rules3">Faites attention, la balle roule de plus en plus vite !</string>
+    <string name="aboutTitle">RULES</string>
+    <string name="lastScore">Last score :</string>
+    <string name="rankTitle">SCORES</string>
+    <string name="settingsTitle">SETTINGS</string>
+    <string name="EditPathColorTitle">COULEUR DU CHEMIN</string>
+    <string name="EditPathColorText">Modifie la couleur du chemin à l\'aide du sélecteur de couleur en RGB.</string>
+    <string name="EditPathSideColorTitle">COULEUR DU COTé</string>
+    <string name="EditPathSideColorText">Modifie la couleur du coté du chemin à l\'aide du sélecteur de couleur en RGB.</string>
+    <string name="EditBallColorTitle">COULEUR DE LA BALLE</string>
+    <string name="EditBallColorText">Modifie la couleur de la balle à l\'aide du sélecteur de couleur en RGB.</string>
+    <string name="EditDificultyTitle">DIFFICULTé</string>
+    <string name="EditDificultyText">Modifie la difficulté en changeant la largeur du chemin</string>
+    <string name="retablirTextButton">Rétablir couleurs\npar défaut</string>
+    <string name="validerTextButton">Valider</string>
+</resources>

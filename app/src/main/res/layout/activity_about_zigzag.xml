@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:id="@+id/layoutGlobal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#dddddd">
+
+    <TextView
+        android:id="@+id/aboutTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutTitle"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:textSize="50dp"
+        android:background="#cccccc"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="40dp">
+    <TextView
+        android:id="@+id/rules1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        android:text="@string/rules1"
+        android:gravity="center"/>
+     <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="20dp"
+         android:src="@drawable/dot"/>
+    <TextView
+        android:id="@+id/rules2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:text="@string/rules2"
+        android:gravity="center"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:src="@drawable/dot"/>
+    <TextView
+        android:id="@+id/rules3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:text="@string/rules3"
+        android:gravity="center"/></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="25dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about"
+        android:layout_weight="1"
+        android:textSize="11dp"
+        android:layout_marginRight="10dp"/>
+    <ImageView
+        android:src="@drawable/logo_iut"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="3"/>
+    </LinearLayout>
+
+</LinearLayout>
+    <ImageButton
+        android:id="@+id/returnButton"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:src="@drawable/previous"
+        android:background="@drawable/mybutton2"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        />
+</RelativeLayout>
