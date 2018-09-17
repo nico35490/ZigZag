@@ -11,8 +11,8 @@ Téléchargez l'[APK](https://github.com/nico35490/ZigZag/releases)
 
 # Screenshots
 
-![Accueil](https://imgur.com/iSVzSeg)
-![Jeu](https://imgur.com/ro5x5mL)
-![Classement](https://imgur.com/6b10bd8)
-![Rules](https://imgur.com/ldV9jfu)
-![Param](https://imgur.com/SxKXBTD)
+![Accueil](https://i.imgur.com/iSVzSeg.png)
+![Jeu](https://i.imgur.com/ro5x5mL.png)
+![Classement](https://i.imgur.com/6b10bd8.png)
+![Rules](https://i.imgur.com/ldV9jfu.png)
+![Param](https://i.imgur.com/SxKXBTD.png)
